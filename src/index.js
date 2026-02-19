@@ -246,8 +246,7 @@ const createExplosion = (invader, color) => {
 
 
 const gameLoop = () => {
-    console.log(`Projéteis: ${playerProjectiles.length} | Invasores: ${invadersProjectiles.length} | Partículas: ${particles.length}`);
-    // Limpa a tela com o fundo escuro
+    
     ctx.fillStyle = '#121212';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
